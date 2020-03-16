@@ -13,6 +13,7 @@ public class Swap2Elements {
             arrayList.set(pos1, arrayList.get(pos2));
             arrayList.set(pos2,temp);
         }
+        System.out.println("The elements at pos1 and pos2 are swapped");
     }
 
     public static void main(String[] args) {
